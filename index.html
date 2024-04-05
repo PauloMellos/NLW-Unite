@@ -1,18 +1,31 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <body>
-            <table>
-                <thead style="text-align: left">
+        <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/dayjs@1/plugin/relativeTime.js">
 
-                    <tr>
-                       <th>Participante</th>
-                       <th>Data da inscrição</th>
-                       <th>Data do chek-in</th>  
-                    </tr>
-                </thead>
+        </script>
+        <script>
+            dayjs.extend(window.dayjs_plugin_relativeTime)
+          </script>
+          <script src="https://cdn.jsdelivr.net/npm/dayjs@1/locale/pt-br.js"></script>
+          <script>
+            dayjs.locale('pt-br')
+        </script>
+        <script type="text/javascript" src="./index.js " defer=""></script>
+        <link rel="stylesheet" href="">
+            <body>
+                <table>
+                    <thead style="text-align: left">
 
-            </table>
-        </body>
+                        <tr>
+                         <th>Participante</th>
+                         <th>Data da inscrição</th>
+                         <th>Data do chek-in</th>  
+                        </tr>
+                    </thead>
+
+                </table>
+            </body>
     </head>
 </html>
